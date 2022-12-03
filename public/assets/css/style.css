@@ -1,0 +1,839 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root {
+    --bc_color: #251C23;
+    --font_family: 'Press Start 2P'
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+}
+body{
+    background-color: var(--bc_color)!important;
+}
+#home_header {
+    padding: 15px 0;
+}
+
+#home_header .header_logo {
+    position: relative;
+}
+
+#home_header .header_logo h5 {
+    position: absolute;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    left: 50px;
+    color: #FFFFFF;
+}
+
+#home_header a {
+    text-decoration: none;
+    padding: 10px 10px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: var(--font_family);
+}
+
+#home_header a:hover {
+    color: #EE46BC;
+}
+
+#home_header .header_btn button {
+    box-shadow: 0px 0px 8px #EE46BC;
+    border: 2px solid #EE46BC;
+    background-color: transparent;
+    box-shadow: 0px 0px 8px #EE46BC;
+    padding: 5px 15px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/* 
+    home_discover
+*/
+
+#home_discover {
+    background-color: var(--bc_color);
+    background-image: url('../img/bc_img.png');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 150px 0 120px 0;
+}
+
+#home_discover .nft_collection {
+    background-image: url('../img/btn_bc.png');
+    background-size: cover;
+    width: 233px;
+    padding: 10px 15px;
+}
+
+#home_discover .nft_collection h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+#home_header .navbar_ul a {
+    font-size: 18px;
+}
+
+#home_discover .discover_content {
+    width: 400px;
+}
+
+#home_discover .discover_content_paragraph {
+    width: 450px;
+    padding: 40px 0;
+}
+
+#home_discover .discover_content h1 {
+    font-size: 48px;
+    color: #FFFFFF;
+    line-height: 72px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#home_discover .discover_content_paragraph p {
+    color: #B09BB6;
+}
+
+#home_discover .discover_btn button {
+    padding: 10px 15px;
+    background: url('../img/btn_bc.png');
+    background-size: cover;
+    border: none;
+    width: 150px;
+    font-family: 'IBM Plex Mono';
+    color: #FFFFFF;
+    outline: none;
+}
+#home_discover .nft_collection_first {
+    position: absolute;
+    top: 40%;
+    right: 30%;
+}
+
+#home_discover .nft_collection_second {
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
+}
+
+/* 
+    home_statics
+*/
+#home_statics {
+    padding-bottom: 90px;
+    background-color: var(--bc_color);
+}
+
+
+
+#home_statics h1 {
+    color: #fff
+}
+
+#home_statics span {
+    color: #8D7B91
+}
+#home_statics .row{
+    padding-top: 60px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+/* crypto */
+.home_crypto {
+    background-color: var(--bc_color);
+    padding-bottom: 40px;
+}
+
+.home_crypto .home_crypto1 {
+    width: 500px;
+    margin: auto;
+}
+
+.home_crypto .home_crypto1 h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.home_crypto .home_crypto1 p {
+    color: #B09BB6;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+#home_crypto_indicators {
+    background-color: var(--bc_color);
+    padding-bottom: 70px;
+}
+
+#home_crypto_indicators .home_crypto_indicators span {
+    color: #EE46BC;
+}
+
+#home_crypto_indicators .grid {
+    display: grid;
+    grid-template-columns: calc(20% - 12px) calc(20% - 12px) calc(20% - 12px) calc(20% - 12px) calc(20% - 12px);
+    gap: 15px;
+
+}
+
+#home_crypto_indicators .home_crypto_indicators {
+    padding: 15px;
+    background-image: url('../img/crytpo_div_border.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat
+}
+
+/* home_calculator */
+#home_calculator {
+    background-color: var(--bc_color);
+    padding-bottom: 80px;
+}
+
+#home_calculator .calculator_left_side p {
+    font-family: 'IBM Plex Mono';
+    line-height: 30px;
+    color: #B09BB6;
+}
+
+
+.select-menu {
+    max-width: 330px;
+    margin: 50px auto;
+  }
+  .select-menu .select-btn {
+    display: flex;
+    height: 55px;
+    background: #fff;
+    background-color: #422439;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+box-shadow: 0px 0px 4px #EE46BC;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+  }
+  .select-menu .select-btn img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-right: 10px;
+  }
+  .select-menu .select-btn .sBtn-text{
+    display: flex;
+  }
+  .select-menu .select-btn .sBtn-text .d-flex{
+    flex-direction: column;
+  }
+  .select-menu .select-btn .sBtn-text .d-flex span{
+    font-size: 14px;
+  }
+  .select-menu .options {
+    position: absolute;
+    width: 330px;
+    overflow-y: auto;
+    max-height: 295px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation-name: fadeInDown;
+    -webkit-animation-name: fadeInDown;
+    animation-duration: 0.35s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 0.35s;
+    -webkit-animation-fill-mode: both;
+  }
+  .select-menu .options .option {
+    display: flex;
+    height: 55px;
+    cursor: pointer;
+    padding: 0 16px;
+    border-radius: 8px;
+    align-items: center;
+    background: #fff;
+  }
+  .sBtn-text-number{
+    color:  #cf31a2
+  }
+  
+  .select-btn i {
+    font-size: 25px;
+    transition: 0.3s;
+    color: #A993AE;
+    font-size: 10px;
+  }
+  
+  .select-menu.active .select-btn i {
+    transform: rotate(-180deg);
+  }
+
+  
+
+#home_calculator .home_calculator_chcbox label {
+    color: #B09BB6;
+}
+
+
+#home_calculator .home_calculator {
+    display: grid;
+    grid-template-columns: calc(35% - 20px) calc(65% - 20px);
+    gap: 40px;
+}
+
+#home_calculator .calculator_right_side {
+    padding-left: 150px;
+}
+
+#home_calculator .calculator_right_side input,
+#home_calculator .calculator_right_side select {
+    background-color: #422439;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 4px #EE46BC;
+    color: #Fff;
+}
+
+#home_calculator .calculator_right_side select {
+    margin-left: 20px;
+}
+.home_payment_methods .d-flex img{
+    width: 100px;
+    aspect-ratio: 4/3;
+    object-fit: contain;
+    margin-right: 10px;
+}
+.home_payment_methods h5{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#home_calculator .calculator_btn button {
+    padding: 15px 15px;
+    background: url('../img/btn_bc.png');
+    background-size: cover;
+    border: none;
+    width: 200px;
+    font-family: 'IBM Plex Mono';
+    color: #FFFFFF;
+    outline: none;
+}
+
+/*  */
+
+#home_bid_section {
+    background-color: var(--bc_color);
+    padding-bottom: 100px;
+}
+
+#home_bid_section .bid_img {
+    background-color: #e6f4e0;
+    /* width: 80%; */
+    height: 250px;
+    background-color: #471338;
+    border-radius: 5px;
+}
+
+#home_bid_section .grid{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: calc(25% - 5px)  calc(25% - 5px) calc(25% - 5px) calc(25% - 5px);
+    gap: 20px;
+}
+
+
+#home_bid_section h5 {
+    color: #5a0a42;
+
+}
+
+#home_bid_section h4 {
+    font-family: 'Press Start 2P';
+    line-height: 30px;
+    font-weight: 400;
+
+}
+
+#home_bid_section span {
+    color: #B09BB6;
+}
+
+#home_bid_section .bid_btn button {
+    padding: 10px;
+    background: url('../img/btn_bc.png');
+    background-size: cover;
+    border: none;
+    width: 160px;
+    font-family: 'IBM Plex Mono';
+    color: #FFFFFF;
+}
+
+/*  */
+
+
+#home_team_info {
+    background-color: var(--bc_color);
+    padding: 50px 0 150px 0;
+
+}
+
+#home_team_info span {
+    color: #c02090;
+}
+
+.home_team_info {
+    background-image: url('../img/team_bc.png');
+    background-size: 100% 100%;
+    padding: 40px 0;
+}
+
+.home_team_info p {
+    padding: 15px 35px 15px 0px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align:justify;
+    
+}
+.home_team_info_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding:40px 0;
+}
+.home_team_info h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+.home_team_info .swiper-slide img{
+    width: 70%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    margin: 0 auto;
+}
+.home_team_info .team_social i {
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.home_team_info .team_social i:hover {
+    color: #5a0a42;
+}
+
+.swiper-container{
+    height:350px;
+    overflow: hidden;
+}
+
+/*  */
+#home_nafco_roadmap {
+    background-color: var(--bc_color);
+    padding-bottom: 120px;
+}
+
+
+#home_question_part {
+    background-color: var(--bc_color);
+    padding-bottom: 120px;
+}
+
+#home_question_part .home_question_top_part {
+    width: 50%;
+    margin: auto;
+}
+
+#home_question_part a,
+#home_question_part p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    text-decoration: none;
+}
+.home_questions{
+    width: 50%;
+    margin: auto;
+    margin-top: 70px;
+}
+#home_question_part .home_questions .panel-body p{
+    color: #B09BB6;
+}
+.panel-heading{
+    padding: 0;
+}
+.panel-heading a{
+    display: block;
+    padding: 10px 15px;
+}
+.home_questions .panel_section1{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 4px #EE46BC;
+    background: rgba(238, 70, 188, 0.1);
+    padding: 10px;
+}.home_questions .panel-default>.panel-heading{
+    background-color: transparent;
+}
+.home_questions h4{
+    font-size: 24px;
+}
+.panel-group .panel-heading+.panel-collapse>.panel-body{
+    border: none !important;
+}
+
+.row:before {
+    content: none !important
+}
+
+
+.nft_question_h1{
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+    box-shadow: 0px 0px 4px #EE46BC;
+    margin-bottom: 20px;
+}
+.nft_questions>div{
+    margin-bottom: 20px;
+}
+/*  */
+#home_community{
+    padding: 100px 0;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    background: linear-gradient(to bottom, transparent 50%, #3D2234 50%);
+}
+#home_community .home_community {
+    background-image: url('../img/comunity_bc.png');
+    background-size: 100% 100%;
+    margin: auto;
+    position: relative;
+    
+}
+
+
+#home_community .container *{
+z-index: 10;
+}
+#home_community .community_notification {
+    background-color: #6BDBA4;
+    width: 200px;
+    padding:5px 15px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-top-left-radius: 10px;
+
+}
+#home_community .community_content{
+    width: 300px;
+    padding: 70px 0px 70px 70px;
+}
+#home_community .community_content h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+#home_community .community_notification h5 {
+    font-size: 15px;
+}
+#home_community .community_btn button {
+    padding: 10px;
+    background: url('../img/btn_bc.png');
+    background-size: cover;
+    border: none;
+    width: 160px;
+    font-family: 'IBM Plex Mono';
+    color: #FFFFFF;
+}
+#home_community::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    border-top: 40px solid var(--bc_color);
+    border-bottom: 40px solid transparent;
+    border-left: 40px solid transparent;
+    border-right: 40px solid var(--bc_color);
+}
+/* ---- Footer Css ---- */
+/* Footer Main Piece */
+#home_nafco_info{
+    /* background-color: #3E2336; */
+    background: linear-gradient(to bottom, #3D2234 50%, #3D2234 50%);
+    padding: 100px 0 60px 0;
+    position: relative;
+}
+#home_nafco_info .nafco_info{
+     width: 50%;
+     margin: auto;
+}
+#home_nafco_info .nafco_logo h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+#home_nafco_info .nafco_paragraph p {
+    color: #B09BB6;
+    padding: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+#home_nafco_info .nafco_social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home_nafco_info .nafco_social i{
+    font-size: 25px;
+    color:#fff;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+#home_nafco_info .nafco_social i:hover{
+    color: #5a0a42;
+}
+
+/* Footer Copyright Piece */
+#home_footer{
+    /* background-color: #3E2336; */
+    background: linear-gradient(to bottom, #3D2234 50%, #3D2234 50%);
+    padding-top: 40px;
+    position: relative;
+}
+#home_footer .home_footer{
+    padding: 20px 0;
+}
+#home_footer .home_footer span{
+        color: #cb1494;
+}
+#home_footer .home_footer h5{
+        color: rgba(176, 155, 182, 1);
+}
+#home_footer .home_footer ul li a{
+        color: rgba(176, 155, 182, 1);
+        margin-right: 25px;
+        font-size: 20px;
+        transition: 0.7s ease-in-out;
+}
+#home_footer .home_footer ul li:last-child a{
+    margin-right: 0;
+}
+#home_footer::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 30px solid var(--bc_color);
+    border-top: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-left: 30px solid var(--bc_color);
+}
+
+
+/* ---- Mobile Navbar Css ---- */
+.mobile_navbar{
+    border: 2px solid #EE46BC;
+    box-shadow: 0px 0px 4px #EE46BC;
+    display: none;
+}
+.mobile_navbar a{
+    color: #fff;
+    font-family: var(--font_family);
+    font-size: 25px;
+    cursor: pointer;
+}
+.mobile_navbar a:hover{
+    color: #d033a4;
+}
+
+
+
+/* ---- Responsive Codes - Css ---- */
+@media only screen  and (max-width: 1200px){
+    .mobile_menu_bars{
+            display: block;
+            display: flex;
+            justify-content: flex-end;
+    }
+    .mobile_navbar{
+       padding: 20px;
+       
+    }
+    .mobile_navbar.active {
+      display: block;
+    }
+    #navbar_icon::before {
+        content: '\f0c9';
+        font-family: fontAwesome;
+        font-size: 40px;
+        cursor: pointer;
+        color: #fff
+      }
+      #navbar_icon.activ::before {
+        content: '\f00d';
+        font-family: fontAwesome;
+        font-size: 40px;
+      } 
+    .navbar_ul.col-6{
+        display: none !important
+    }
+    .header_btn{
+        display: flex;
+        justify-content: center
+    }
+    #home_crypto_indicators .indicators_bottom h2 {
+        width: 100% !important
+    }
+    #home_crypto_indicators div{
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+    }
+    #home_crypto_indicators .grid{
+        display: grid;
+        grid-template-columns: calc(33.333% - 12px) calc(33.333% - 12px) calc(33.333% - 12px);
+        gap: 18px;
+    }
+    
+    #home_bid_section {
+        text-align: center;
+    }
+    #home_bid_section .bid_content {
+            flex-wrap: wrap;
+            justify-content: center;
+    }
+    #home_bid_section .bid_label {
+       margin: auto !important
+    }
+   
+    
+
+
+
+
+
+
+}
+@media only screen and (max-width :992px){
+   #home_discover .nft_collection{
+        display: none !important
+    }
+    #home_discover .discover_content h1{
+        font-size:35px
+    }
+    #home_discover .discover_btn{
+        display: flex;
+        flex-direction: column;
+    }
+    #home_discover .discover_btn_second {
+        margin-left: 0 !important;
+    }
+    #home_discover .discover_btn_first {
+        margin: 15px 0;
+    }
+
+
+    #home_crypto_indicators .grid{
+        display: grid;
+        grid-template-columns: calc(50% - 12px) calc(50% - 12px);
+        gap: 24px;
+    }
+
+    #home_calculator .home_calculator{
+        grid-template-columns: 100%;
+    }
+    #home_calculator .calculator_left_side{
+            text-align: center;
+    }
+    #home_calculator .calculator_right_side{
+            padding-left: 0;
+            text-align: center;
+    }
+    #home_calculator .home_payment_methods{
+        justify-content: center;
+        margin :20px 0 !important
+    }
+    #home_bid_section .grid{
+        grid-template-columns: calc(50% - 10px ) calc(50% - 10px );
+        gap: 20px;
+    }
+    #home_bid_section .bid_content{
+        display: flex;
+        justify-content: space-between;
+    }
+    .home_footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .home_footer_ul{
+        justify-content: center;
+    }
+    .home_questions{
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width : 768px){
+    #home_bid_section .grid{
+        display: grid; 
+        grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+        gap : 20px;
+    }
+    #home_bid_section .grid>div{
+        margin-bottom: 40px;
+    }
+    #home_question_part .home_question_top_part{
+        width: 100%;
+    }
+    #home_calculator .home_payment_methods{
+        
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width:600px){
+    #home_statics .row{
+        flex-direction: column!important;
+    }
+    #home_statics .row .col-4{width: 100%!important;}
+    .home_crypto .home_crypto1{
+        width: 100%;
+    }
+    #home_discover .discover_content_paragraph{
+        width: 100%;
+    }
+}
+@media only screen and (max-width :576px){
+    #home_crypto_indicators .grid{
+        display: grid;
+        grid-template-columns: calc(100% - 12px);
+        gap: 25px;
+    }
+    #home_crypto_indicators{
+        margin: auto;
+    }
+
+    #home_bid_section .grid{
+        grid-template-columns: calc(100% - 10px );
+        gap: 20px;
+    }
+    .home_footer_ul{
+        margin: 0;
+        flex-direction: column;
+    }
+    #home_team_info .home_team_info_box{
+        width: 100%;
+        padding: 10px 15px;
+    }
+    #home_discover .discover_content{
+        width: 100%;
+    }
+}
